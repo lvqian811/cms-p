@@ -34,14 +34,14 @@ Base 地址: http://localhost:3000
 
 - 返回数据
 
-```jsJS
+```json
 {
 	status:0,
 	msg:'增加用户成功'
 }
 ```
 
-```js
+```json
 {
     status:-1,
 	msg:'增加用户失败'
