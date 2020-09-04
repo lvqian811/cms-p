@@ -22,13 +22,15 @@ Base 地址: http://localhost:3000
 
 - 请求参数
 
-  | 名称       | 必选 | 类型              | 说明     |
-  | ---------- | ---- | ----------------- | :------- |
-  | Email      | 是   | string            | 邮箱     |
-  | nickname   | 是   | string            | 用户名称 |
-  | password   | 是   | string            | 用户密码 |
-  | role       | 否   | [admin,normal]    | 角色类型 |
-  | createTime | 否   | string : Date.now | 创建日期 |
+  | 名称       | 必选 | 类型           | 说明                    |
+  | ---------- | ---- | -------------- | :---------------------- |
+  | username   | 是   | string         | 账号名 唯一             |
+  | password   | 是   | string         | 用户密码                |
+  | nickname   | 是   | string         | 用户名称                |
+  | role       | 否   | [admin,normal] | 角色类型                |
+  | createtime | 否   | Date           | 创建日期 默认: Date.now |
+  | status     | 否   | Number         | 1:激活 0:未激活 默认: 1 |
+  | avatar     | 否   | String         | 头像                    |
 
   
 
